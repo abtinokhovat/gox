@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/abtinokhovat/gox/config"
+	"github.com/abtinokhovat/gox/confx"
 	"sync"
 )
 
@@ -21,7 +21,7 @@ type Config struct {
 }
 
 func (c Config) String() string {
-	return config.MaskSecrets(c)
+	return confx.MaskSecrets(c)
 }
 
 func Default() Config {
@@ -40,7 +40,7 @@ func Get() (*Config, error) {
 
 	// load config from and return it
 	once.Do(func() {
-		opts := config.Option{
+		opts := confx.Option{
 			Prefix:    "ABTIN_",
 			Delimiter: ".",
 			Separator: "__",
@@ -48,7 +48,7 @@ func Get() (*Config, error) {
 
 		instance = new(Config)
 
-		loadErr = config.NewConfigLoader[Config](opts).WithDefaultProvider(Default()).WithEnvProvider().WithYamlProvider("").Load(instance)
+		loadErr = confx.NewConfigLoader[Config](opts).WithDefaultProvider(Default()).WithEnvProvider().WithYamlProvider("").Load(instance)
 	})
 
 	if loadErr != nil {
