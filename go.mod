@@ -2,7 +2,7 @@ module github.com/abtinokhovat/gox
 
 go 1.24.0
 
-require github.com/abtinokhovat/gox/config v0.1.0
+require github.com/abtinokhovat/gox/confx v0.1.0
 
 require (
 	github.com/fatih/structs v1.1.0 // indirect

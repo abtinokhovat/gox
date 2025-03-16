@@ -2,6 +2,8 @@ github.com/abtinokhovat/gox/config v0.0.0-20250316190604-eaf85c97d306 h1:MQZOyJo
 github.com/abtinokhovat/gox/config v0.0.0-20250316190604-eaf85c97d306/go.mod h1:6APwicmMozNTTutJkJXtXecUxjEaJ0xLeUJaka+uhzo=
 github.com/abtinokhovat/gox/config v0.1.0 h1:cMQiPN1lPVdTHNixf0pyPs4zaY7WeiHu5dmI2xG4j6M=
 github.com/abtinokhovat/gox/config v0.1.0/go.mod h1:6APwicmMozNTTutJkJXtXecUxjEaJ0xLeUJaka+uhzo=
+github.com/abtinokhovat/gox/confx v0.1.0 h1:+dCTldaiIpnLvYTCGpjhUAmeTKNioeB2CKQyymt6JXY=
+github.com/abtinokhovat/gox/confx v0.1.0/go.mod h1:tiePI4TZ7VnKi0SvX0XAYaCC+fPn9mKgbrg8gHr1bUg=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/fatih/structs v1.1.0 h1:Q7juDM0QtcnhCpeyLGQKyg4TOIghuNXrkL32pHAUMxo=
