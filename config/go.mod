@@ -1,4 +1,4 @@
-module config
+module github.com/abtinokhovat/gox/config
 
 go 1.24.0
 
